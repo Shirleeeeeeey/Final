@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	background-color: beige;
+}
+h1{
+	color: white;
+	font-size: 55px;
+	font-family: aladin;
+}
+h2{
+	font-size: 35px;
+}
+p{font-size: 20px}
+.header{
+	background-color:brown;
+	height: 250px;
+	margin: 20px 50px 10px 50px;
+	padding: 10px;
+}
+.footer{
+	background-color:brown;
+	margin-left:50px;
+	margin-right: 50px;
+	clear: both;
+}
+.firstcontent{
+	background-color: burlywood;
+	float:left;
+	width: 60%;
+	height: inherit;
+	margin-left: 50px;
+	margin-top: 30px;
+	padding: 20px;
+}
+
+.secondcontent{
+	float: right;
+	background-color:firebrick;
+	margin-right: 50px;
+	margin-top:30px;
+	padding:15px;
+	width: 25%;
+	color:white;
+	font-size: 20px;
+	font-family:Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+	line-height: 25px;
+}
+#symbol{
+	width:220px;
+	height:220px;
+	float: left;
+	padding:15px
+}
+.graph{
+	width:400px;
+	height:300px;
+	padding:2.5%;
+	
+}
+#map{
+	width:830px;
+	height:450px;
+	padding:10px;
+}
+#title{
+	width:80%;
+	float: right;
+	text-align: center;
+	padding-top: 15px;
+}
+#sym{
+	width:19%;
+	float:left;
+	align-content: center;
+	padding-top: 15px;
+	padding-left: 1%;
+}
+#row1{
+	width:50%;
+	float:left;
+}
+#row2{
+	width:50%;
+	float:right;
+}
+.graph{
+	width:400px;
+	height:300px;
+}
+h4{
+	display:none;
+	font-size: 17px;
+}
+button{
+	font-size: 20px;
+}
+button:hover{
+	color:red;
+	font-style:oblique;
+}
+.graph:hover{
+	 width:500px;
+	height: 370px;
+	padding:0px;
+	position: relative; 
+	transition-duration: 2s;
+}
+iframe{
+	width:830px;
+	height:450px;
+	padding:10px;
+}
+.secfigure{
+	width:95%;
+	padding:2.5%;
+}
